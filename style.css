@@ -1,0 +1,112 @@
+body {
+  background-color: rgb(50,50,50);
+  padding: 3%;
+  font-family: sans-serif;
+  color: rgb(225,225,225);
+  font-size: 20px;
+}
+
+#chapter-text {
+  font-size: 28px;
+}
+
+.desktop {
+  display: none;
+}
+
+.btn {
+  font-size: 20px;
+}
+
+.numeri .btn {
+  width: 65px;
+  border-color: rgb(50,50,50);
+}
+
+.card p {
+  font-size: 20px;
+}
+
+@media screen and (min-width: 848px) {
+  body {
+    background-color: rgb(50,50,50);
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 10%;
+    font-family: sans-serif;
+    color: rgb(225,225,225);
+    font-size: 33px;
+  }
+
+  .mobile {
+    display: none;
+  }
+  .desktop {
+    display: block;
+  }
+
+  #heading h1, #heading h2 {
+    padding-left: 10%; 
+    font-weight: bold;
+  }
+
+  #chapter-text {
+    font-size: 40px;
+  }
+
+  .btn {
+    font-size: 33px;
+  }
+
+  .card p {
+    font-size: 27px;
+  }
+}
+
+span[title] {
+  text-decoration: underline;
+  text-decoration-color: rgb(40, 110, 40);
+}
+
+span[title]:hover {
+  cursor: default;
+  text-decoration: underline;
+  text-decoration-color: rgb(200, 100, 110); /*indianred ?*/
+}
+
+hr { 
+  display: block; 
+  height: 1px;
+	border: 0; 
+  border-top: 2px solid rgb(120,120,120);
+	margin: 1em 0; 
+  padding: 0; 
+}
+.small-hr {
+  width: 35%;
+  margin: auto;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.tooltip-inner {
+  font-size: 20px;
+  color: lemonchiffon;
+}
+
+.card h3 {
+  font-weight: bold;
+  color: chocolate;
+}
+
+#back {
+  float: right;
+}
+
+.list-group a, .list-group a:hover{
+  color: #007bff; 
+  font-weight: bold;
+}
+.list-group a span {
+  color: rgb(225,225,225);
+}
